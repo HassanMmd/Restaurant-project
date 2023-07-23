@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'FrederickatheGreat-Regular';
+    src: url(../assets/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SpecialElite-Regular';
+    src: url(../assets/fonts/Special_Elite/SpecialElite-Regular.ttf) format('truetype');
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.footer-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 600px;
+}
+
+.footer-logo-mibile{
+    width: 100%;
+}
+
+.footer-img{
+    width: 260px;
+    animation: logoscale 4s alternate-reverse infinite;
+    animation: logoback 2s alternate-reverse infinite;
+}
+
+.footer-img-mobile{
+    padding-top: 40px;
+    width: 100%;
+    animation: logoscale 4s alternate-reverse infinite;
+    animation: logoback 2s alternate-reverse infinite;
+}
+
+@keyframes logoscale {
+    from {
+        transform: scale(0.8);
+    }
+
+    to{
+        transform: scale(1);
+    }
+  }
+
+@keyframes logoback{
+    from {
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(0.8);
+    }
+  }
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.sign{
+    font-size: 20px;
+    font-family: FrederickatheGreat-Regular, sans-serif;
+}

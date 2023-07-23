@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'TiltPrism-Regular';
+    src: url(../assets/fonts/Tilt_Prism/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vw;
+}
+
+.menu-title{
+    color: antiquewhite;
+    font-family: TiltPrism-Regular, sans-serif;
+}
+
+.nav-buttons{
+    margin: 1vw;
+}
+
+.menu-img{
+    width: 530px;
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'TiltPrism-Regular';
+    src: url(../assets/fonts/Tilt_Prism/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 35vw;
+}
+
+.welcome{
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: TiltPrism-Regular, sans-serif;
+    animation: welcome3 2s alternate-reverse infinite;
+    animation: welcome4 2s alternate-reverse infinite;
+}
+
+.welcome-mobile{
+    color: antiquewhite;
+    width: 100%;
+    font-family: TiltPrism-Regular, sans-serif;
+    animation: welcome3 2s alternate-reverse infinite;
+    animation: welcome4 2s alternate-reverse infinite;
+}
+
+.line{
+    animation: welcome1 2s alternate-reverse infinite;
+}
+
+
+@keyframes welcome1{
+    from {
+        color: rgb(101, 101, 34);
+    }
+
+    to{
+        color: rgb(96, 58, 8);
+    }
+  }
+@keyframes welcome3{
+    from {
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.1);
+    }
+  }
+@keyframes welcome4{
+    from {
+        transform: scale(1.1);
+    }
+
+    to{
+        transform: scale(1);
+    }
+  }
+
+  .call-phone{
+    animation: call1 2s alternate-reverse infinite;
+  }
+
+
+@keyframes call1{
+    from {
+        color: rgb(203, 203, 139);
+    }
+
+    to{
+        color: rgb(186, 122, 40);
+    }
+  }

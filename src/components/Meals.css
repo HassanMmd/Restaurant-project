@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'FrederickatheGreat-Regular';
+    src: url(../assets/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf) format('truetype');
+}
+
+.nav-list-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2vw;
+}
+
+.nav-btn-item{
+    color: white;
+    background-color: transparent;
+    font-family: FrederickatheGreat-Regular, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-list-btn-mobile{
+    display: flex;
+    flex-direction: column;
+    gap:0.8em
+}
+
+.nav-btn-item:hover{
+    scale: 1.05;
+}
+
+.menu-bg-img{
+    width: 530px;
+}
+
+.menu-md-img{
+    width: 510px;
+}
+
+.menu-sm-img{
+    width: 500px;
+}
+
+.menu-sm-img-mobile{
+    width: 100%;
+}
+
+.size-desc{
+    font-family: FrederickatheGreat-Regular, sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 50px;
+}

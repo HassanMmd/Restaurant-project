@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'SpecialElite-Regular';
+    src: url(../assets/fonts/Special_Elite/SpecialElite-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Foldit-VariableFont';
+    src: url(../assets/fonts/Foldit/Foldit-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'TiltPrism-Regular';
+    src: url(../assets/fonts/Tilt_Prism/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 394px 394px 394px;
+    grid-gap: 1rem;
+}
+
+.section1-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Thecard-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("../assets/imgs/old11.png");
+    width: 100%;
+    height: 440px;
+    border-radius: 5%;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.Thecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("../assets/imgs/old11.png");
+    height: 440px;
+    border-radius: 5%;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.Thecard:hover{
+    scale: 1.02;
+}
+
+.card-title{
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.desc-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-days{
+    font-size: 15px;
+}
+
+.desc-time{
+    font-size: 13px;
+}
+
+.img-card{
+    width: 100px;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(96, 95, 95);
+}
+
+.links:hover{
+    color: rgb(55, 55, 55);;
+}

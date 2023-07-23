@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'SpecialElite-Regular';
+    src: url(../assets/fonts/Special_Elite/SpecialElite-Regular.ttf) format('truetype');
+}
+
+.book-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("../assets/imgs/old11.png");
+    background-repeat: no-repeat;
+    background-size: 440px;
+    height: 530px;
+    width: 440px;
+    border-radius: 5%;
+    font-family: SpecialElite-Regular, sans-serif;
+    margin-top: 8vw;
+}
+
+.book{
+    display: flex;
+    justify-content: center;
+}
+
+.book-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-text{
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px inset  rgb(0, 0, 0);
+    width: 240px;
+    height: 16px;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.input-text-mobile{
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px inset  rgb(0, 0, 0);
+    width: 100%;
+    height: 16px;
+    font-family: SpecialElite-Regular, sans-serif; 
+}
+
+.input-text:valid{
+    background-color: #b7ab75;
+    border: 1px inset  rgb(0, 0, 0);
+    width: 240px;
+    height: 16px;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.personal-info, .book-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.1rem;
+}
+
+
+.book-details{
+    display: flex;
+    gap: 0.3rem;
+}
+
+
+.name, .phone, .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: start;
+}
+
+.people-number-text{
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px inset  rgb(0, 0, 0);
+    width: 50px;
+    height: 15px;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.inside, .outside{
+    font-size: 15px;
+}
+
+.time-text{
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px inset  rgb(0, 0, 0);
+    width: 30px;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.date-text{
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px inset  rgb(0, 0, 0);
+    width: 105px;
+    font-family: SpecialElite-Regular, sans-serif;
+}
+
+.am-pm {
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px inset  rgb(0, 0, 0);
+    width: 70px;
+    font-family: SpecialElite-Regular, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.sbmit-btn-book{
+    padding: 5px;
+    border-radius:10%;
+    font-size: 16px;
+    font-family: SpecialElite-Regular, sans-serif;
+    background-color: rgba(210, 210, 0, 0.127);
+    border: 1px outset rgb(0, 0, 0);
+}
+
+.sbmit-btn-book:hover{
+    transform: scale(1.05);
+    background-color: rgba(210, 210, 0, 0.221);
+    border: 1px outset rgb(0, 0, 0);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #b7ab75 inset !important;
+    -webkit-text-fill-color: black !important;
+    border: 0px;
+}

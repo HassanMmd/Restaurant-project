@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'FrederickatheGreat-Regular';
+    src: url(../assets/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'SpecialElite-Regular';
+    src: url(../assets/fonts/Special_Elite/SpecialElite-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Foldit-VariableFont';
+    src: url(../assets/fonts/Foldit/Foldit-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'TiltPrism-Regular';
+    src: url(../assets/fonts/Tilt_Prism/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+    gap: 2rem;
+}
+
+.nav-list-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-family: FrederickatheGreat-Regular,sans-serif;
+    font-size: 24px;
+}
+
+.nav-item:hover{
+    background-image: url("../assets/imgs/old.png");
+    background-repeat: no-repeat;
+    background-size: 260px 200px;
+}
+
+.nav-item-mobile{
+    text-decoration: none;
+    color: white;
+    font-family: FrederickatheGreat-Regular,sans-serif;
+    font-size: 24px;
+}
+
+.nav-item-mobile:hover{
+    background-image: url("../assets/imgs/old.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
